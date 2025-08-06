@@ -3,7 +3,9 @@
     "allow": [
       "Bash(find:*)",
       "Bash(dir \"C:\\Users\\hello\\Herd\\packages\\claude-code-review-action\" /ah)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": []
   }
